@@ -1,0 +1,43 @@
+html {
+    
+    background-image: url(https://th.bing.com/th/id/R.cfae9254c6ca965f0a4e83e2da7c8a26?rik=5W6GcICwlTgYQg&riu=http%3a%2f%2fannmariejohn.com%2fwp-content%2fuploads%2f2021%2f08%2fAmericas-Most-Haunted-Houses-1440x957.jpg&ehk=lVU5T%2fWI6EDtwgs8eJaL6AufHKnguPeEOnIs6yjot%2fo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 200px;
+}
+    
+.bg  {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nadpis {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
